@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>連打力検定</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+    <header class="container">
+        <ul id="modal" class="hidden">
+            <li style="
+            box-sizing: border-box;
+            border-style: solid;
+            border-width: 4px 4px 4px 4px;
+            border-color: rgb(201, 249, 255);
+            background-image: url(images/speedClick.png);
+            "></li>
+            <a href="../mogura/mogura.html">
+                <li style="
+                    box-sizing: border-box;
+                border-style: solid;
+                border-width: 4px 4px 4px 4px;
+                border-color: rgb(181, 255, 177);
+                background-image: url(images/mogura.png);
+                "></li>
+            </a>
+            <a href="../tBJ/tBJ.html">
+                <li style="
+                    box-sizing: border-box;
+                border-style: solid;
+                border-width: 4px 4px 4px 4px;
+                border-color: rgb(254, 255, 177);
+                background-image: url(images/blackjack.png);
+                "></li>
+            </a>
+            <a href="../Omikuji/index.html">
+                <li style="
+                    box-sizing: border-box;
+                border-style: solid;
+                border-width: 4px 4px 4px 4px;
+                border-color: rgb(255, 209, 177);
+                background-image: url(images/omikuzi.png);
+                "></li>
+            </a>
+            <a href="../EnlargedQuiz/sample.html">
+                <li style="
+                    box-sizing: border-box;
+                border-style: solid;
+                border-width: 4px 4px 4px 4px;
+                border-color: rgb(255, 201, 248);
+                background-image: url(images/kakudai.png);
+                "></li>
+            </a>
+            <li id="close">閉じる</li>
+        </ul>
+        <div class="header-content">
+            <div class="header-icon">
+                <a href="../index.html">
+                    <i id="home" class="fa-solid fa-house fa-2x" data-fa-transform="shrink-8"></i>
+                </a>
+            </div>
+            <div class="header-icon">
+                <i id="open" class="fa-solid fa-bars fa-2x"></i>
+            </div>
+        </div>
+        <h1>暇つぶしアプリ</h1>
+        <div class="decoration"></div>
+    </header>
+    
+    <p id="countDown">10:000</p>
+    <button id="btn">開始</button>
+    <p id="message">ボタンを押すとスタート</p>
+    <button id="restart">リスタート</button>
+    <div id="sheet">
+        <ul>
+            <li>120〜 : 神</li>
+            <li>100〜 : 天才</li>
+            <li>90〜 : すごい</li>
+            <li>80〜 : 普通</li>
+            <li>〜79 : まだまだ</li>
+        </ul>
+    </div>
+    
+    <script src="js/main.js"></script>
+</body>
+</html>
